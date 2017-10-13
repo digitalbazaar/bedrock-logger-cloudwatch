@@ -1,0 +1,28 @@
+{
+  "name": "bedrock-logger-cloudwatch",
+  "version": "0.0.1-0",
+  "description": "Configures a Bedrock application to log to AWS CloudWatch.",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-logger-cloudwatch.git"
+  },
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "http://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-logger-cloudwatch/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-logger-cloudwatch",
+  "dependencies": {
+    "winston-cloudwatch": "^1.12.0"
+  },
+  "peerDependencies": {
+    "bedrock": "^1.2.4"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
